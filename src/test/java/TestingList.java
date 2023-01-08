@@ -253,7 +253,7 @@ public class TestingList {
     @Test
     public void sortPerformanceTest() {
         for (int i = 1; i < 1025; i *= 2) {
-            int n = i * 1000;
+            int n = i * 100000;
             System.out.print(n + "\t");
             TList list = new TList(builder);
 
